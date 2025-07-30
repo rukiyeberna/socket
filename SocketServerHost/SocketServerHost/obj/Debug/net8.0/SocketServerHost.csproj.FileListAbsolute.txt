@@ -1,0 +1,14 @@
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\bin\Debug\net8.0\SocketServerHost.exe
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\bin\Debug\net8.0\SocketServerHost.deps.json
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\bin\Debug\net8.0\SocketServerHost.runtimeconfig.json
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\bin\Debug\net8.0\SocketServerHost.dll
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\bin\Debug\net8.0\SocketServerHost.pdb
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\obj\Debug\net8.0\SocketServerHost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\obj\Debug\net8.0\SocketServerHost.AssemblyInfoInputs.cache
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\obj\Debug\net8.0\SocketServerHost.AssemblyInfo.cs
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\obj\Debug\net8.0\SocketServerHost.csproj.CoreCompileInputs.cache
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\obj\Debug\net8.0\SocketServerHost.dll
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\obj\Debug\net8.0\refint\SocketServerHost.dll
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\obj\Debug\net8.0\SocketServerHost.pdb
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\obj\Debug\net8.0\SocketServerHost.genruntimeconfig.cache
+C:\Users\Berna\source\repos\SocketServerHost\SocketServerHost\obj\Debug\net8.0\ref\SocketServerHost.dll
