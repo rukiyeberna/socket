@@ -1,0 +1,37 @@
+# Build klasörleri
+bin/
+obj/
+
+# User-specific dosyalar
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Rider / JetBrains
+.idea/
+
+# Log ve geçici dosyalar
+*.log
+*.tmp
+
+# Test sonuçları
+TestResults/
+
+# Yerel ayarlar
+*.db
+*.sqlite
+*.pfx
+
+# Paketler (nuget restore ile geri gelir)
+packages/
+*.nupkg
+
+# Yayın çıktısı
+publish/
+
+# Ayar dosyaları (isteğe bağlı)
+appsettings.Development.json
