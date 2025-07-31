@@ -61,6 +61,22 @@
 
             <Button x:Name="btnGonder" Content="Gönder" Width="60" Height="30"
                     Click="btnGonder_Click"/>
+			
+			<Image x:Name="ScreenCaptureImage"
+                   Width="24" Height="24" Margin="10,0,0,0"
+                   Source="image/camera.png"
+                   Cursor="Hand"
+                   ToolTip="Ekran Görüntüsü Al"
+                   MouseLeftButtonUp="ScreenCaptureImage_MouseLeftButtonUp"/>
+
+			<Image x:Name="PreviewImage"
+	             Width="320"
+	             Height="400"
+	             Margin="10"
+	             Stretch="Uniform"
+	             Visibility="Collapsed"
+	              HorizontalAlignment="Center"
+	              VerticalAlignment="Top"/>
         </StackPanel>
     </Grid>
 </Window>
