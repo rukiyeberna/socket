@@ -156,7 +156,62 @@ Port numarasını girin: 5000
 
 ---
 
-## 📸 Demo gelcek
+## 📸 Demo
+
+
+ a real-time TCP-based communication between two clients, featuring both text messaging and live screenshot sharing via memory stream and base64 encoding.
+
+---
+
+## 🌐 Running the Application: Local & Remote Scenarios
+
+This application can be tested on the **same machine** or **across different machines on the same network (LAN)**.
+
+---
+
+### 💻 Local Test on the Same PC
+
+To simulate a full client-server flow without multiple devices:
+
+- Run the **server** in one terminal or console window
+- Run the **client (WPF)** separately
+- This mimics a real network connection over TCP, even on the same device
+
+✅ Messages will still pass through the OS’s TCP stack and be handled via `NetworkStream`.
+
+---
+
+### 🌐 Remote Test from Another PC on LAN
+
+You can also run the server and client on **two different machines** in the same Wi-Fi or LAN network.
+
+#### ✅ Server Setup
+
+- Launch the server and enter `0.0.0.0` as the IP address  
+  → This binds the server to all network interfaces  
+- Choose a port (e.g., `5000`)
+- Ensure the firewall allows incoming connections:
+
+```powershell
+New-NetFirewallRule -DisplayName "SocketServer" -Direction Inbound -Protocol TCP -LocalPort 5000 -Action Allow
+```
+
+#### ✅ Client Setup (on another PC)
+
+- Launch the WPF client
+- Connect using:
+  - The **actual local IP address** of the server machine (e.g., `192.168.x.x`)
+  - The same port used by the server
+
+✅ Once connected, full communication is established:
+- 🔹 Text messages
+- 🔹 Screenshots (streamed as JPEG-compressed base64)
+
+📌 *Avoid using `localhost` on the client — always use the server’s real IP address.*
+
+---
+
+🧪 In both setups, communication is handled entirely via **raw TCP sockets** using `.NET NetworkStream`, with no middleware, no third-party messaging library, and no simulation — this is real asynchronous socket programming in action.
 
 
 
